@@ -1,0 +1,46 @@
+--made by iyk
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("IykHub", "Midnight")
+
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Lock")
+
+
+    MainSection:NewButton("Aimlock", "Makes you do toggle on people", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/xPVv1zyx'))()
+    end)
+
+    MainSection:NewButton("smooth lock", "Makes you do toggle q on people", function()
+         loadstring(game:HttpGet('https://pastebin.com/6seJRUDH'))()
+    end)
+
+    MainSection:NewButton("Resolver", "Bypass anti lock users", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/YS8jt9Ax'))()
+    end)
+
+
+    --LOCAL ANTI LOCK AND AIM VIEWER
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
+
+   
+   PlayerSection:NewButton("BestAntiLock", "Makes people who locks shot the floor toggle key is x", function()
+           loadstring(game:HttpGet('https://pastebin.com/raw/tU1gSagq'))()
+    end)
+    
+    MainSection:NewButton("Vin Gui", "Aim view people aim and c to toggle it on and off anti lock", function()
+         loadstring(game:HttpGet('https://pastebin.com/d7BkXFf3'))()
+    end)
+    
+    --LOCAL TRASH TALK
+    local TRASH TALK = Window:NewTab("Player")
+    local Talk trashSection = Player:NewSection("Player")
+    
+     PlayerSection:NewButton("trash talk made by iyk#0001", "Makes people quit and get mad toggle j", function()
+           loadstring(game:HttpGet('https://pastebin.com/raw/dASZj1Dq'))()
+    end)
+    
+    Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.V, function()
+	Library:ToggleUI()
+end)
