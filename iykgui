@@ -24,10 +24,23 @@ local Window = Library.CreateLib("IykHub", "Midnight")
     local Player = Window:NewTab("Player")
     local PlayerSection = Player:NewSection("Player")
 
-   
+   PlayerSection:NewButton("Boxware", "locks shots at people head or any where toggle key is u can change", function()
+           loadstring(game:HttpGet('https://pastebin.com/raw/xRQjRWZa'))()
+    end)
+
+   PlayerSection:NewButton("Gui hub with lock", "Gui scripts with lock and more", function()
+           loadstring(game:HttpGet('https://pastebin.com/raw/A8GWr0cL'))()
+    end)
+
+   PlayerSection:NewButton("anim scripts", "anim scripts dont forget to take all anims off before doing this", function()
+           loadstring(game:HttpGet('https://pastebin.com/raw/WzjR19Ec'))()
+    end)
+
+
    PlayerSection:NewButton("BestAntiLock", "Makes people who locks shot the floor toggle key is x", function()
            loadstring(game:HttpGet('https://pastebin.com/raw/tU1gSagq'))()
     end)
+    
     
     MainSection:NewButton("Vin Gui", "Aim view people aim and c to toggle it on and off anti lock", function()
          loadstring(game:HttpGet('https://pastebin.com/d7BkXFf3'))()
